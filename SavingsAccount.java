@@ -1,8 +1,10 @@
 public class SavingsAccount {
+    //Tipe Data
     double saldo;
     double bunga = 0.02;
     String nama;
     public void cetak(){
+        //Output
         System.out.println("Nama Customer: " + nama);
         System.out.println("balance: " + saldo);
         System.out.println("interest rate: " + bunga);
@@ -10,4 +12,5 @@ public class SavingsAccount {
         System.out.println();
     }
 }
+
 
